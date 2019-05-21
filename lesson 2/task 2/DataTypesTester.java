@@ -1050,5 +1050,109 @@ public class DataTypesTester {
 		System.out.printf("float = boolean: c = (float)%b --> Compile Error\n", bool);
 	}
 
+	public static void testString() {
+		String s1 = "Some string", s2 = "Some other string", c;
+		System.out.println("\n***** Arithmetical Operators *****");
+		// addition
+		c = s1 + s2;
+		System.out.printf("%s + %s = %s\n", s1, s2, c);
+		// subtraction
+		//c = s1 - s2; // is undefined for the argument type String
+		//c = s1 * s2;
+		//c = s1 / s2;
+		//c = s1 % s2;
+		//c = s1 / 0; 
+		// c = s1 % 0; 
+		// unary minus
+		//c = -s1; // is undefined for the argument type String
+		// unary plus
+		//c = +s1;// is undefined for the argument type String
+		// prefix increment
+		//System.out.printf("++%d = %d\n", s1, ++s1);
+		// postfix increment
+		//System.out.printf("%d++ = %d\n", s1, s1++);
+		// prefix decrement
+		//System.out.printf("--%d = %d\n", s1, --s1);
+		// postfix decrement
+		//System.out.printf("%d-- = %d\n", s1, s1--);
+		//System.out.println("\n***** Bitwise Operators *****");
+		//c = s1 & s2; 	//bitwise AND  is undefined for the argument type String
+		//c = s1 | s2; // bitwise OR
+		//c = s1 ^ s2; // bitwise XOR
+		//c = ~s1; // bitwise unary compliment
+		//c = s1 << 1; // left shift
+		//c = s1 >> 1; // right shift
+		//c = s1 >> 1; // right shift
+		//c = s1 >>> 1; // zero fill right shift
+		//c = s1 >>> 1; // zero fill right shift		System.out.printf("%d >>> 1 = %d\n", s1, c);
+		
+		System.out.println("\n***** Assignment Operators *****");
+		c = "Awesome";
+		System.out.printf("%s += %s --> c = %s\n", c, s1, c += s1);
+		//System.out.printf("%d -= %d --> c = %d\n", c, s1, c -= s1);
+		//System.out.printf("%d *= %d --> c = %d\n", c, s1, c *= s1);
+		//System.out.printf("%d /= %d --> c = %d\n", c, s1, c /= s1);
+		//System.out.printf("%d %%= %d --> c = %d\n", c, s1, c %= s1);
+		// c %= 0; --> Arithmetical Exception
+		// c /= 0; --> Arithmetical Exception
+		//System.out.printf("%d |= %d --> c = %d\n", c, s1, c |= s1);
+		//System.out.printf("%d &= %d --> c = %d\n", c, s1, c &= s1);
+		//System.out.printf("%d ^= %d --> c = %d\n", c, s1, c ^= s1);
+		//System.out.printf("%d >>= 1 --> c = %d\n", c, c >>= 1);
+		//System.out.printf("%d <<= 1 --> c = %d\n", c, c <<= 1);
+		//System.out.printf("%d >>>= 1 --> c = %d\n", c, c >>>= 1);
+		System.out.println("\n***** Relational Operators *****");
+		// greater than
+		//System.out.printf("%d > %d --> %b\n", s1, s2, s1 > s2);
+		// greater than or equal to
+		//System.out.printf("%d >= %d --> %b\n", s1, s2, s1 >= s2);
+		// less than
+		//System.out.printf("%d < %d --> %b\n", s1, s2, s1 < s2);
+		// less than or equal to
+		//System.out.printf("%d <= %d --> %b\n", s1, s2, s1 <= s2);
+		// equal to
+		System.out.printf("%s == %s --> %b\n", s1, s2, s1 == s2);
+		// not equal to
+		System.out.printf("%s != %s --> %b\n", s1, s2, s1 != s2);
+		System.out.println("\n***** Logical Operations *****");
+		// logical AND
+		//System.out.printf("(%d > %d) && (%d > 0) --> %b\n", s1, s2, s1, (s1 > s2) && (s1 > 0));
+		// bitwise logical AND
+		//System.out.printf("(%d > %d) & (%d > 0) --> %b\n", s1, s2, s1,	(s1 > s2) & (s1 > 0));
+		// logical OR
+		//System.out.printf("(%d >= %d) || (%d != 0) --> %b\n", s1, s2, s2, (s1 >= s2) || (s2 != 0));
+		// bitwise logical OR
+		//System.out.printf("(%d >= %d) | (%d != 0) --> %b\n", s1, s2, s2, (s1 >= s2) | (s2 != 0));
+		// logical XOR
+		//System.out.printf("(%d >= %d) ^ (%d != 0) --> %b\n", s1, s2, s2, (s1 >= s2) ^ (s2 != 0));
+		// logical NOT
+		//System.out.printf("!(%d >= %d) --> %b\n", s1, s2, !(s1 >= s2));
+		System.out.println("\n***** Misc Operators *****");
+		System.out.println("\nCondition Operator:");
+		//System.out.printf("%d > %d ? %d : %d --> %d\n", s1, s2, s1, s2,	(s1 > s2 ? s1 : s2));
+		System.out.println("\nType Cast Operator:");
+		byte bt = 1;
+		short sh = -32000;
+		char ch = '\u0033';
+		long l = 100000000000000000L;
+		float f = 1.9f;
+		double d = 123456789.625;
+		boolean bool = true;
+		c =String.valueOf(bt);
+		System.out.printf("String = byte: c = %d --> c = %s\n", bt, c);
+		c = String.valueOf(sh);
+		System.out.printf("String = short: c = %d --> c = %s\n", sh, c);
+		c = String.valueOf(ch);
+		System.out.printf("String = char: c = '%c' --> c = %s\n", ch, c);
+		c = String.valueOf(l);
+		System.out.printf("String = long: c = %d --> c = %s\n", l, c);
+		c = String.valueOf(f);
+		System.out.printf("String = float: c = %f --> c = %s\n", f, c);
+		c = String.valueOf(d);
+		System.out.printf("String = double: c = %f --> c = %s\n", d, c);
+		c = String.valueOf(bool);
+		System.out.printf("String = boolean: c = %b --> %s\n", c, bool);
+	}
+
 }
 

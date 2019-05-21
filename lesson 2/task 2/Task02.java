@@ -10,6 +10,7 @@ public class Task02 {
 		DataTypesTester.testFloat();
 		DataTypesTester.testLong();
 		DataTypesTester.testShort();
+		Student.testStudent();
 		}
 	}
 
