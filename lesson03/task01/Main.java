@@ -8,11 +8,12 @@ public class Main {
 		//f - Fahrenheit
 		//k - Kelvin
 		
-		double temperature = 23.60d;
+		double temperature = 23.60d; 
 		
-		double convertedTemp = DegreesConverter.convertToFahrenheit(temperature, 'f');
+		//In method user indicates his current type of temperature
+		double convertedTemp = DegreesConverter.convertToFahrenheit(temperature, 'c');
 		
-		System.out.printf("Converted temperature is %f", convertedTemp);
+		System.out.printf("Converted temperature is %.3f", convertedTemp);
 
 	}
 
