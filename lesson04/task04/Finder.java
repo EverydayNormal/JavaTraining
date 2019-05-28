@@ -1,4 +1,4 @@
-package task04;
+package lesson04.task04;
 
 public class Finder {
 
@@ -10,12 +10,17 @@ public class Finder {
 	private static double sixthNumber = 0;
 
 	public static void separateNumbers(double number) {
-		firstNumber = number / 100000 % 10;
-		secondNumber = number / 10000 % 10;
-		thirdNumber = number / 1000 % 10;
-		fourthNumber = number / 100 % 10;
-		fifthNumber = number / 10 % 10;
 		sixthNumber = number % 10;
+		number /= 10;
+		fifthNumber = number % 10;
+		number /= 10;
+		fourthNumber = number % 10;
+		number /= 10;
+		thirdNumber = number % 10;
+		number /= 10;
+		secondNumber = number % 10;
+		number /= 10;
+		firstNumber = number % 10;
 	}
 
 	public static double findArithmeticalAverage() {

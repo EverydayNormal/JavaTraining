@@ -1,4 +1,5 @@
-package task03;
+package lesson04.task03;
+import lesson04.task01.Printer;
 
 public class Main {
 
@@ -11,8 +12,7 @@ public class Main {
 		boolean arisingCheck = NumberSchemer.checkArising();
 		boolean descendingCheck = NumberSchemer.checkDescending();
 
-		System.out.printf("Arising of digits in number %d is %b %n", number, arisingCheck);
-		System.out.printf("Descending of digits in number %d is %b", number, descendingCheck);
-
-	}
+		Printer.print("Arising of digits in number " + number + " is " + arisingCheck);
+		Printer.print("Descending of digits in number " + number + " is " + descendingCheck);
+		}
 }

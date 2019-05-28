@@ -1,4 +1,4 @@
-package task03;
+package lesson04.task03;
 
 public class NumberSchemer {
 
@@ -8,11 +8,13 @@ public class NumberSchemer {
 	private static int fourthNumber = 0;
 
 	public static void separateDigits(int number) {
-		firstNumber = number / 1000 % 10;
-		secondNumber = number / 100 % 10;
-		thirdNumber = number / 10 % 10;
 		fourthNumber = number % 10;
-		System.out.println(firstNumber + " " + fourthNumber);
+		number /= 10;
+		thirdNumber = number % 10;
+		number /= 10;
+		secondNumber = number % 10;
+		number /= 10;
+		firstNumber = number % 10;
 	}
 
 	public static boolean checkArising() {

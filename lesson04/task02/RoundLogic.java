@@ -1,4 +1,4 @@
-package task02;
+package lesson04.task02;
 
 public class RoundLogic {
 
