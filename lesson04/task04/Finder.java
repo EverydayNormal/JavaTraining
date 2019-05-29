@@ -28,7 +28,6 @@ public class Finder {
 	}
 
 	public static double findGeometricAverage() {
-		return Math.pow(firstNumber, 1.0 / 6) * Math.pow(secondNumber, 1.0 / 6) * Math.pow(thirdNumber, 1.0 / 6)
-				* Math.pow(fourthNumber, 1.0 / 6) * Math.pow(fifthNumber, 1.0 / 6) * Math.pow(sixthNumber, 1.0 / 6);
+		return Math.pow(firstNumber*secondNumber*thirdNumber*fourthNumber*fifthNumber*sixthNumber, 1.0 / 6);
 	}
 }

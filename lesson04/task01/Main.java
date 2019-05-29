@@ -4,9 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		double a = 4.4d; 
-		double b = 4.4d;
-		double c = 5.5d;
+		double a = 4.4d, b = 4.4d, c = 4.5d;
 
 		boolean result = NumberComparator.compareNumbers(a, b, c);
 		
