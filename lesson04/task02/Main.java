@@ -1,6 +1,6 @@
 package lesson04.task02;
 
-import lesson04.task01.Printer;
+import static lesson04.task01.Printer.print;
 
 public class Main {
 
@@ -9,8 +9,8 @@ public class Main {
 		double r1 = 12.3d;
 		double r2 = 12.2d;
 
-		double rs = RoundLogic.findSquare(r1, r2);
+		double ringSquare = RoundLogic.findSquare(r1, r2);
 
-		Printer.print("The ring's square is " + rs);
+		print("The ring's square is " + ringSquare);
 	}
 }

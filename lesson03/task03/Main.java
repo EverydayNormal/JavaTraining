@@ -1,4 +1,6 @@
-package task03;
+package lesson03.task03;
+
+import static lesson03.task01.Printer.print;
 
 public class Main {
 
@@ -10,8 +12,8 @@ public class Main {
 		double weightInMilligramms = DinoMassConverter.convertInMilligramms(dinoWeingt);
 		double weightInTons = DinoMassConverter.convertInTons(dinoWeingt);
 
-		System.out.printf("Dinosaur weight is %f gramms", weightInGramms);
-		System.out.printf("Dinosaur weight is %f milligramms", weightInMilligramms);
-		System.out.printf("Dinosaur weight is %f tons", weightInTons);
+		print("Dinosaur weight is " + weightInGramms + " gramms");
+		print("Dinosaur weight is " + weightInMilligramms + " milligramms");
+		print("Dinosaur weight is " + weightInTons + " tons");
 	}
 }

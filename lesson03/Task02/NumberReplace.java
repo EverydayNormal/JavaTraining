@@ -1,4 +1,6 @@
-package task02;
+package lesson03.Task02;
+
+import static lesson03.task01.Printer.print;
 
 public class NumberReplace {
 
@@ -11,7 +13,7 @@ public class NumberReplace {
 		b = a - b;
 		a = a - b;
 
-		System.out.printf("At first number \"a\" was %.2f and now it's %.2f%n", b, a);
-		System.out.printf("At first number \"b\" was %.2f and now it's %.2f", a, b);
+		print("At first number \"a\" was " + a + " and now it's " + b);
+		print("At first number \"b\" was " + b + " and now it's " + a);
 	}
 }
