@@ -1,5 +1,7 @@
 package lesson04.task05;
 
+import static lesson04.task01.Printer.print;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -9,6 +11,6 @@ public class Main {
 		NumberSchemer.separateNumbers(number);
 		int reverseNumber = NumberSchemer.reverseDigits();
 
-		System.out.printf("Reversed version of number %d will be %d", number, reverseNumber);
+		print("Reversed version of number " + number + " will be " + reverseNumber);
 	}
 }

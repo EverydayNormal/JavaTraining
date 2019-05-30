@@ -25,9 +25,14 @@ public class NumberSchemer {
         number /= 10;
         firstNumber = number % 10;
     }
-
+/*
     public static int reverseDigits() {
         return seventhNumber * 1000_000 + sixthNumber * 100_000 + fifthNumber * 10_000 + fourthNumber * 1_000
                 + thirdNumber * 100 + secondNumber * 10 + firstNumber;
     }
-}
+    */
+    public static int reverseDigits() {
+        	return (((((seventhNumber * 10 + sixthNumber) * 10 + fifthNumber) * 10  + fourthNumber) * 10
+        		+ thirdNumber) * 10 + secondNumber) * 10 + firstNumber;
+     }
+ }

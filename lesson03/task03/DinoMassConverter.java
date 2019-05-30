@@ -1,4 +1,4 @@
-package task03;
+package lesson03.task03;
 
 public class DinoMassConverter {
 
