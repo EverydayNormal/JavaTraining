@@ -1,8 +1,8 @@
 package task03;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
+import task03.model.MoodSensor;
 
 public class MoodSensorTest {
 

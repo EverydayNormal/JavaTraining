@@ -1,4 +1,4 @@
-package task02;
+package task02.model;
 
 public class LetterChecker {
 
