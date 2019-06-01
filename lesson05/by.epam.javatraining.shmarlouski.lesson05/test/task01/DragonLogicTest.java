@@ -1,8 +1,8 @@
 package task01;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
+import task01.model.DragonLogic;
 
 public class DragonLogicTest {
 

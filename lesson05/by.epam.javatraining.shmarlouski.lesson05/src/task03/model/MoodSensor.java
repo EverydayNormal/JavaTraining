@@ -1,4 +1,4 @@
-package task03;
+package task03.model;
 
 public class MoodSensor {
 

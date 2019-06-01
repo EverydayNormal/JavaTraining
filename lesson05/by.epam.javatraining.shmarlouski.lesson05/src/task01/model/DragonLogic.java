@@ -1,4 +1,7 @@
-package task01;
+package task01.model;
+
+import task01.model.DragonLogic;
+import static task01.view.Printer.print;
 
 public class DragonLogic {
 
@@ -7,10 +10,10 @@ public class DragonLogic {
 		int heads = 3;
 
 		if (dragonYears < 0) {
-			Printer.print("The dragon cannot live backward so number of years must be positive.");
+			print("The dragon cannot live backward so number of years must be positive.");
 			return 0;
 		} else if (dragonYears > Integer.MAX_VALUE / 2) {
-			Printer.print("There's no way that dragon could live that long.");
+			print("There's no way that dragon could live that long.");
 			return 0;
 		}
 

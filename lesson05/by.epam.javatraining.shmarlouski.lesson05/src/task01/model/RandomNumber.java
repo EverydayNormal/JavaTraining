@@ -1,4 +1,4 @@
-package task01;
+package task01.model;
 
 import java.util.Random;
 

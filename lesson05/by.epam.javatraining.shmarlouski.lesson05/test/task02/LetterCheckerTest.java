@@ -1,10 +1,8 @@
 package task02;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
-import task01.DragonLogic;
+import task02.model.LetterChecker;
 
 public class LetterCheckerTest {
 
@@ -61,7 +59,7 @@ public class LetterCheckerTest {
 
 		assertEquals(expected, LetterChecker.checkVowelOrNotVer3(letter));
 	}
-	
+
 	@Test
 	public void testCheckVowelOrNotRussian() {
 
