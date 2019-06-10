@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="junit4">
+  <library name="hamcrest-core-1.3">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/junit4/hamcrest-core-1.3.jar!/" />
       <root url="jar://$PROJECT_DIR$/junit4/junit-4.13-beta-3.jar!/" />

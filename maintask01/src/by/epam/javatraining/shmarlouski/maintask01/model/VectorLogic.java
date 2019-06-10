@@ -33,7 +33,7 @@ public class VectorLogic {
         }
 
         for (int i = 0; i < vector.length; i++) {
-            vector[i] = (int) (RANDOM.nextDouble() * 10 + 1); /// +1 for "value>0"
+            vector[i] = (int) (RANDOM.nextDouble() * 10 + 1); // +1 for "value>0" , int for better look
         }
         LOGGER.info("Vector was filled \n" + Arrays.toString(vector));
         return vector;
@@ -48,7 +48,7 @@ public class VectorLogic {
         double minElement = vector[0];
 
         for (int i = 1; i < vector.length; i++) {
-            if (vector[i] < minElement) {
+            if (minElement > vector[i]) {
                 minElement = vector[i];
             }
         }
@@ -226,7 +226,7 @@ public class VectorLogic {
         int rightBorder = vector.length - 1;
 
         while (leftBorder < rightBorder) {
-            swapElements(vector[leftBorder], vector[rightBorder]);
+            swapElements(vector, leftBorder, rightBorder);
             leftBorder++;
             rightBorder--;
         }
@@ -243,7 +243,7 @@ public class VectorLogic {
         for (int i = vector.length - 1; i > 0; i--) {
             for (int j = 1; j < vector.length; j++) {
                 if (vector[j] < vector[j - 1]) {
-                    swapElements(vector[j], vector[j - 1]);
+                    swapElements(vector, j, j - 1);
                 }
             }
         }
@@ -287,7 +287,7 @@ public class VectorLogic {
                     minIndex = i;
                 }
             }
-            swapElements(vector[left], vector[minIndex]);
+            swapElements(vector, left, minIndex);
         }
         LOGGER.info("Vector was sorted by Selection sort \n" + Arrays.toString(vector));
         return vector;
@@ -301,7 +301,7 @@ public class VectorLogic {
 
         for (int i = 1; i < vector.length; i++) {
             if (vector[i] < vector[i - 1]) {
-                swapElements(vector[i], vector[i - 1]);
+                swapElements(vector, i, i - 1);
                 doOneCicleForSort(vector);
             }
         }
@@ -333,7 +333,7 @@ public class VectorLogic {
                 }
 
                 if (leftMarker <= rightMarker) {
-                    swapElements(vector[leftMarker], vector[rightMarker]);
+                    swapElements(vector, leftMarker, rightMarker);
                     leftMarker++;
                     rightMarker--;
                 }
@@ -385,10 +385,9 @@ public class VectorLogic {
         return vector;
     }
 
-    private static void swapElements(double a, double b) {
-        double temp = a;
-        a = b;
-        b = temp;
+    private static void swapElements(double[] vector, int index1, int index2) {
+        double temp = vector[index1];
+        vector[index1] = vector[index2];
+        vector[index2] = temp;
     }
-
 }
