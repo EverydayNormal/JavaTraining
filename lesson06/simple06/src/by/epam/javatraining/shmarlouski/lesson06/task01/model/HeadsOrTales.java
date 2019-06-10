@@ -1,11 +1,24 @@
 package by.epam.javatraining.shmarlouski.lesson06.task01.model;
 
-import static by.epam.javatraining.shmarlouski.lesson06.task01.model.RandomNumber.getRandomInt;
+import static by.epam.javatraining.shmarlouski.lesson06.task01.model.RandomNumber.*;
 
 public class HeadsOrTales {
 
 	private static int headsCount = 0;
 	private static int tailsCount = 0;
+
+	public static String getResultAnotherWay(int turn) {
+		System.out.println(turn);
+		int heads = 0;
+		for (int i = 0; i < turn; i++) {
+			if (getRandomBoolean()) {
+				heads++;
+			}
+		}
+		int tails = turn - heads;
+
+		return "Heads was dropped " + heads + " and tails was dropped " + tails;
+	}
 
 	public static String getResult(int turn) {
 		if (turn < 0) {
