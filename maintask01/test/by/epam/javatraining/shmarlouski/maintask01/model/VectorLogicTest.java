@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
  * This class contains different tests for vectorLogic class.
  *
  * @author Smarlouski Ihar
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 
@@ -211,7 +211,7 @@ public class VectorLogicTest extends VectorLogic {
     }
 
     @Test
-    public void doOneCicleForSortTest() {
+    public void doOneCircleForSortTest() {
 
         double[] vectorTest = {3, 1, 2};
         vectorTest = doBubbleSort(vectorTest);
@@ -233,9 +233,39 @@ public class VectorLogicTest extends VectorLogic {
     @Test
     public void doMergeSortTest() {
 
-        double[] vectorTest = {3, 1, 2};
+        double[] vectorTest = {3, 1, 2, 4, 5,6,7,9};
         vectorTest = doBubbleSort(vectorTest);
-        double[] expectedVector = {1, 2, 3};
+        double[] expectedVector = {1, 2, 3,4,5,6,7,9};
+
+        assertArrayEquals(expectedVector, vectorTest, 1);
+    }
+
+    @Test
+    public void addElement() {
+
+        double[] vectorTest = {3, 1, 2};
+        vectorTest = addElement(vectorTest, 6, 7);
+        double[] expectedVector = {3, 1, 2, 6, 7};
+
+        assertArrayEquals(expectedVector, vectorTest, 1);
+    }
+
+    @Test
+    public void removeElement() {
+
+        double[] vectorTest = {3, 1, 2};
+        vectorTest = removeElement(vectorTest, 1);
+        double[] expectedVector = {3, 2};
+
+        assertArrayEquals(expectedVector, vectorTest, 1);
+    }
+
+    @Test
+    public void removeElementOutOfRange() {
+
+        double[] vectorTest = {3, 1, 2};
+        vectorTest = removeElement(vectorTest, -13);
+        double[] expectedVector = {3, 1, 2};
 
         assertArrayEquals(expectedVector, vectorTest, 1);
     }
