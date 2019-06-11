@@ -1,7 +1,5 @@
 package by.epam.javatraining.shmarlouski.maintask01.controller;
 
-        import java.util.Arrays;
-
         import static by.epam.javatraining.shmarlouski.maintask01.model.VectorLogic.*;
 
 public class Main {
@@ -42,10 +40,18 @@ public class Main {
 
         double[] sortedVector3 = doSelectionSort(vector);
 
-        double[] sortedVector4 = doOneCicleForSort(vector);
+        double[] sortedVector4 = doOneCircleForSort(vector);
 
         double[] sortedVector5 = doQuickSort(vector, 0, vector.length - 1);
 
         double[] sortedVector6 = doMergeSort(vector, 0, vector.length - 1);
+
+        double newElement1 = 3.1;
+        double newElement2 = 4.1;
+
+        vector = addElement(vector, newElement1, newElement2);
+
+        vector = removeElement(vector,1);
+
     }
 }

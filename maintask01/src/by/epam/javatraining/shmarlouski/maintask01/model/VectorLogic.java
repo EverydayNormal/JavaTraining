@@ -9,18 +9,18 @@ import org.apache.log4j.Logger;
  * This class contains different static methods for working with vector.
  *
  * @author Smarlouski Ihar
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 public class VectorLogic {
 
     private static final Logger LOGGER = Logger.getLogger(VectorLogic.class);
-    private final static Random RANDOM = new Random();
+    private static final Random RANDOM = new Random();
 
     private static boolean isValidSize(double[] vector) {
         boolean validity = true;
         if (vector == null || vector.length <= 0) {
-            LOGGER.error(" Vector shouldn't be null and must have positive size to get filled");
+            LOGGER.error(" Vector shouldn't be null and must have positive size");
             validity = false;
         }
         return validity;
@@ -80,9 +80,11 @@ public class VectorLogic {
 
         double arithmeticAverage = 0;
         double sumOfAllElements = 0;
+
         for (int i = 0; i < vector.length; i++) {
             sumOfAllElements += vector[i];
         }
+
         double numberOfElements = vector.length;
         arithmeticAverage = sumOfAllElements / numberOfElements;
 
@@ -139,14 +141,14 @@ public class VectorLogic {
         }
 
         int position = -1;
-        for (int i = 0; i < vector.length; i++) {
-            if (i != 0 && i != vector.length - 1) {
-                if (vector[i] < vector[i - 1] && vector[i] < vector[i + 1]) {
-                    position = i;
-                    break;
-                }
+        //except first and last elements because they don't have both neighbors
+        for (int i = 1; i < vector.length - 1; i++) {
+            if (vector[i] < vector[i - 1] && vector[i] < vector[i + 1]) {
+                position = i;
+                break;
             }
         }
+
         LOGGER.info("Position of local smallest element in vector is " + position);
         return position;
     }
@@ -158,14 +160,15 @@ public class VectorLogic {
         }
 
         int position = -1;
-        for (int i = 0; i < vector.length; i++) {
-            if (i != 0 && i != vector.length - 1) {
-                if (vector[i] > vector[i - 1] && vector[i] > vector[i + 1]) {
-                    position = i;
-                    break;
-                }
+
+        //except first and last elements because they don't have both neighbors
+        for (int i = 1; i < vector.length - 1; i++) {
+            if (vector[i] > vector[i - 1] && vector[i] > vector[i + 1]) {
+                position = i;
+                break;
             }
         }
+
         LOGGER.info("Position of local biggest element in vector is " + position);
         return position;
     }
@@ -293,7 +296,7 @@ public class VectorLogic {
         return vector;
     }
 
-    public static double[] doOneCicleForSort(double[] vector) {
+    public static double[] doOneCircleForSort(double[] vector) {
 
         if (!isValidSize(vector)) {
             return new double[0];
@@ -302,7 +305,7 @@ public class VectorLogic {
         for (int i = 1; i < vector.length; i++) {
             if (vector[i] < vector[i - 1]) {
                 swapElements(vector, i, i - 1);
-                doOneCicleForSort(vector);
+                doOneCircleForSort(vector);
             }
         }
         return vector;
@@ -348,29 +351,29 @@ public class VectorLogic {
         return vector;
     }
 
-    public static double[] doMergeSort(double[] vector, int first, int last) {
+    public static double[] doMergeSort(double[] vector, int left, int right) {
 
         if (!isValidSize(vector)) {
             return new double[0];
         }
 
-        if (last > first) {
-            int mid = first + (last - first) / 2;
-            doMergeSort(vector, first, mid);
-            doMergeSort(vector, mid + 1, last);
+        if (right > left) {
+            int mid = left + (right - left) / 2;
+            doMergeSort(vector, left, mid);
+            doMergeSort(vector, mid + 1, right);
 
             double[] buf = Arrays.copyOf(vector, vector.length);
 
-            for (int k = first; k <= last; k++)
+            for (int k = left; k <= right; k++) {
                 buf[k] = vector[k];
-
-            int i = first, j = mid + 1;
-            for (int k = first; k <= last; k++) {
+            }
+            int i = left, j = mid + 1;
+            for (int k = left; k <= right; k++) {
 
                 if (i > mid) {
                     vector[k] = buf[j];
                     j++;
-                } else if (j > last) {
+                } else if (j > right) {
                     vector[k] = buf[i];
                     i++;
                 } else if (buf[j] < buf[i]) {
@@ -390,4 +393,53 @@ public class VectorLogic {
         vector[index1] = vector[index2];
         vector[index2] = temp;
     }
+
+    public static double[] addElement(double[] vector, double... element) {
+
+        if (!isValidSize(vector)) {
+            return new double[0];
+        }
+
+        double[] newVector = Arrays.copyOf(vector, vector.length + element.length);
+
+        for (int i = vector.length, j = 0; i < newVector.length; i++) {
+            newVector[i] = element[j];
+            j++;
+        }
+        LOGGER.info("After adding elements vector look like \n" + Arrays.toString(newVector));
+        return newVector;
+    }
+
+    public static double[] removeElement(double[] vector, int position) {
+
+        if (!isValidSize(vector)) {
+            return new double[0];
+        }
+
+        if (position >= vector.length || position < 0) {
+            LOGGER.error("There is no such element position");
+            return vector;
+        }
+
+        double[] newVector = new double[vector.length - 1];
+/*
+        if (position == 0){
+
+            return newVector = Arrays.copyOfRange(vector, 1, vector.length-1);
+        }
+
+        if (position == vector.length-1){
+            return newVector = Arrays.copyOf(vector, vector.length - 1);
+        }
+*/
+
+        double[] firstPart = Arrays.copyOfRange(vector, 0, position);
+        double[] secondPart = Arrays.copyOfRange(vector, position + 1, vector.length);
+        newVector = addElement(firstPart, secondPart);
+
+        LOGGER.info("Element " + vector[position] + " was deleted \n" + Arrays.toString(newVector));
+
+        return newVector;
+    }
+
 }
