@@ -2,3 +2,28 @@
 [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]
 2019-06-11 22:15:52 INFO  VectorLogic:253 - Vector was sorted by Bubble sort 
 [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]
+2019-06-12 17:10:29 INFO  VectorLogic:55 - Smallest element value is 1.0
+2019-06-12 17:10:29 INFO  VectorLogic:71 - Biggest element value is 9.0
+2019-06-12 17:10:29 INFO  VectorLogic:91 - Arithmetic average of vector's values is 4.4
+2019-06-12 17:10:29 INFO  VectorLogic:107 - Geometric average of vector's values is 3.7461522959655715
+2019-06-12 17:10:29 INFO  VectorLogic:133 - Order in a vector is false
+2019-06-12 17:10:29 INFO  VectorLogic:152 - Position of local smallest element in vector is 7
+2019-06-12 17:10:29 INFO  VectorLogic:172 - Position of local biggest element in vector is 3
+2019-06-12 17:10:29 INFO  VectorLogic:189 - Availability of 3.0 is true
+2019-06-12 17:10:29 INFO  VectorLogic:253 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0]
+2019-06-12 17:10:29 INFO  VectorLogic:218 - Availability of 3.0 is true
+2019-06-12 17:10:29 INFO  VectorLogic:236 - Vector's elements was reversed 
+[9.0, 7.0, 6.0, 5.0, 4.0, 4.0, 3.0, 3.0, 2.0, 1.0]
+2019-06-12 17:10:29 INFO  VectorLogic:253 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0]
+2019-06-12 17:10:29 INFO  VectorLogic:276 - Vector was sorted by Insertion sort 
+[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0]
+2019-06-12 17:10:29 INFO  VectorLogic:295 - Vector was sorted by Selection sort 
+[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0]
+2019-06-12 17:10:29 INFO  VectorLogic:409 - After adding elements vector look like 
+[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0, 3.1, 4.1]
+2019-06-12 17:10:29 INFO  VectorLogic:409 - After adding elements vector look like 
+[1.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0, 3.1, 4.1]
+2019-06-12 17:10:29 INFO  VectorLogic:440 - Element 2.0 was deleted 
+[1.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0, 3.1, 4.1]

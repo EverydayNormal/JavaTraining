@@ -4,6 +4,13 @@ package by.epam.javatraining.shmarlouski.maintask01.controller;
 
 public class Main {
 
+    public static void func (int x, int ... y){
+        System.out.println("1");
+    }
+    public static void func (int x, int k, int ... y){
+        System.out.println("2");
+    }
+
     public static void main(String[] args) {
 
         /*
