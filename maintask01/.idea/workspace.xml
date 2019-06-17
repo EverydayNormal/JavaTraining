@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c43050ce-ff66-4257-a37a-48c39f0545f8" name="Default" comment="" />
+    <list default="true" id="86fea48b-591f-44b6-94ae-feda8d4a135a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,14 +12,37 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="VectorSorts.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/VectorSorts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#doSelectionSort#0;class#VectorSorts#0" expanded="false" />
+                <element signature="method#doOneCircleForSort#0;class#VectorSorts#0" expanded="false" />
+                <element signature="method#doQuickSort#0;class#VectorSorts#0" expanded="false" />
+                <element signature="method#doMergeSort#0;class#VectorSorts#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>doSelectionSort</find>
+    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -29,13 +52,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/controller/Main.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/controller/ExtraTaskMain.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/extramodel/ExtraTaskMain.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/extra/model/ExtraTaskMain.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/extra/model/ExtraTaskLogic.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/VectorLogic.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/extra/ExtraTaskLogic.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/extra/ExtraTaskMain.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/javatraining/shmarlouski/maintask01/model/VectorTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/Vector.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/controller/Main.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/javatraining/shmarlouski/maintask01/model/VectorSortsTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/VectorSorts.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/VectorUtils.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/javatraining/shmarlouski/maintask01/model/VectorUtilsTest.java" />
       </list>
     </option>
   </component>
@@ -46,10 +72,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-207" />
+    <option name="y" value="39" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -66,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -89,6 +116,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maintask01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maintask01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -111,9 +156,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maintask01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maintask01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maintask01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maintask01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maintask01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maintask01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -121,6 +209,15 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.epam.javatraining.shmarlouski.maintask01.model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,45 +231,135 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExtraTaskMain">
-    <configuration default="false" name="ExtraTaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VectorUtilsTest.reverseVectorTestVectorValidSize">
+    <configuration default="false" name="VectorUtilsTest.swapElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="by.epam.javatraining.shmarlouski.maintask01.extramodel.*" />
+          <option name="PATTERN" value="by.epam.javatraining.shmarlouski.maintask01.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.shmarlouski.maintask01.extramodel.ExtraTaskMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="maintask01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model.VectorUtilsTest" />
+      <option name="METHOD_NAME" value="swapElementsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="maintask01" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="VectorUtilsTest.swapElementsTestVectorValidSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="by.epam.javatraining.shmarlouski.maintask01.extramodel.*" />
+          <option name="PATTERN" value="by.epam.javatraining.shmarlouski.maintask01.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.shmarlouski.maintask01.controller.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="maintask01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model.VectorUtilsTest" />
+      <option name="METHOD_NAME" value="swapElementsTestVectorValidSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="maintask01" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="VectorUtilsTest.reverseVectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.epam.javatraining.shmarlouski.maintask01.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="maintask01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model.VectorUtilsTest" />
+      <option name="METHOD_NAME" value="reverseVectorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="VectorUtilsTest.reverseVectorTestVectorInvalidSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.epam.javatraining.shmarlouski.maintask01.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="maintask01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model.VectorUtilsTest" />
+      <option name="METHOD_NAME" value="reverseVectorTestVectorInvalidSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="VectorUtilsTest.reverseVectorTestVectorValidSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.epam.javatraining.shmarlouski.maintask01.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="maintask01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.shmarlouski.maintask01.model.VectorUtilsTest" />
+      <option name="METHOD_NAME" value="reverseVectorTestVectorValidSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -412,6 +599,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -540,6 +728,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -555,14 +749,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.ExtraTaskMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.swapElementsTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.swapElementsTestVectorValidSize" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.reverseVectorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.reverseVectorTestVectorInvalidSize" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.reverseVectorTestVectorValidSize" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ExtraTaskMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.reverseVectorTestVectorValidSize" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.reverseVectorTestVectorInvalidSize" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.reverseVectorTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.swapElementsTestVectorValidSize" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VectorUtilsTest.swapElementsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -571,50 +771,84 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c43050ce-ff66-4257-a37a-48c39f0545f8" name="Default" comment="" />
-      <created>1560342197008</created>
+      <changelist id="86fea48b-591f-44b6-94ae-feda8d4a135a" name="Default" comment="" />
+      <created>1560759916264</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560342197008</updated>
-      <workItem from="1560342206253" duration="5910000" />
+      <updated>1560759916264</updated>
+      <workItem from="1560759917855" duration="15493000" />
+      <workItem from="1560777781586" duration="2653000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="VectorUtilsTest_findMaxElementIsNotValidSize - 2019.06.17 at 15h 45m 52s.xml">
+      <configuration name="VectorUtilsTest.findMaxElementIsNotValidSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_reverseVectorTest - 2019.06.17 at 16h 15m 45s.xml">
+      <configuration name="VectorUtilsTest.reverseVectorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_reverseVectorTestVectorInvalidSize - 2019.06.17 at 16h 16m 40s.xml">
+      <configuration name="VectorUtilsTest.reverseVectorTestVectorInvalidSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_reverseVectorTestVectorValidSize - 2019.06.17 at 16h 16m 54s.xml">
+      <configuration name="VectorUtilsTest.reverseVectorTestVectorValidSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_swapElementsTest - 2019.06.17 at 15h 53m 47s.xml">
+      <configuration name="VectorUtilsTest.swapElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_swapElementsTest - 2019.06.17 at 16h 06m 09s.xml">
+      <configuration name="VectorUtilsTest.swapElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_swapElementsTest - 2019.06.17 at 16h 06m 30s.xml">
+      <configuration name="VectorUtilsTest.swapElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_swapElementsTest - 2019.06.17 at 16h 06m 52s.xml">
+      <configuration name="VectorUtilsTest.swapElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_swapElementsTest - 2019.06.17 at 16h 07m 45s.xml">
+      <configuration name="VectorUtilsTest.swapElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorUtilsTest_swapElementsTest - 2019.06.17 at 16h 08m 44s.xml">
+      <configuration name="VectorUtilsTest.swapElementsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5910000" />
+    <option name="totallyTimeSpent" value="18146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-207" y="39" width="1382" height="739" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +859,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/by/epam/javatraining/shmarlouski/maintask01/model/VectorUtilsTest.java</url>
+          <line>234</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -634,50 +876,190 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/controller/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/VectorUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#isValidSize#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#fillVector#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findMinElement#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findMaxElement#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findArithmeticAverage#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findGeometricAverage#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#isAscending#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#isDescending#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findLocalMinElementPosition#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findLocalMaxElementPosition#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#hasElementLinearSearch#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#hasElementBinarySearch#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#swapElements#0;class#VectorUtils#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/VectorLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4165">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/extra/ExtraTaskMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/extra/ExtraTaskLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/shmarlouski/maintask01/model/VectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="62" column="34" lean-forward="false" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
           <folding>
-            <element signature="method#isSquare#0;class#ExtraTaskLogic#0" expanded="false" />
-            <element signature="method#isSymmetric#0;class#ExtraTaskLogic#0" expanded="false" />
-            <element signature="method#findMinimum#0;class#ExtraTaskLogic#0" expanded="false" />
-            <element signature="method#findMaximum#0;class#ExtraTaskLogic#0" expanded="false" />
-            <element signature="method#fillMatrix#0;class#ExtraTaskLogic#0" expanded="false" />
-            <element signature="method#showMatrix#0;class#ExtraTaskLogic#0" expanded="false" />
-            <element signature="method#isSimetric#0;class#ExtraTaskLogic#0" expanded="false" />
-            <element signature="method#transposeMatrix#0;class#ExtraTaskLogic#0" expanded="false" />
+            <element signature="method#addElementNull#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#addElementNotNull#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#addElementMoreThanZero#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#removeElementIndexOutOfBound#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#removeElementIndexInBound#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#removeElementIndexLessThanZero#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#removeElementIndexMoreThanZero#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#removeElementIndexMoreIsZero#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#getElementIndexIsLessThanZero#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#getElementIndexIsMoreThanLength#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#getElementIndexIsLessThanLength#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#getElementIndexIsMoreThanZero#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#setElementIndexMoreThanZero#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#setElementIndexLessThanZero#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#setElementIndexMoreThanLength#0;class#VectorTest#0" expanded="false" />
+            <element signature="method#setElementIndexLessThanLength#0;class#VectorTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/shmarlouski/maintask01/model/VectorSortsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="259" column="0" lean-forward="true" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#doBubbleSortVectorValidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doBubbleSortVectorInvalidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doBubbleSortTest#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doInsertionSortVectorValidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doInsertionSortVectorInvalidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doInsertionSortTest#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doSelectionSortVectorValidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doSelectionSortVectorInvalidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doSelectionSortTest#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doOneCircleForSortVectorValidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doOneCircleForSortVectorInvalidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doOneCircleForSortIsAscendingOrder#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doOneCircleForSortNoAscendingOrder#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doQuickSortVectorValidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doQuickSortVectorInvalidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doQuickSortIsAscendingOrder#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doQuickSortNoAscendingOrder#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doQuickSortInvalidParameters#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doMergeSortVectorValidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doMergeSortVectorInvalidSize#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doMergeSortIsAscendingOrder#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doMergeSortNoAscendingOrder#0;class#VectorSortsTest#0" expanded="false" />
+            <element signature="method#doMergeSortInvalidParameters#0;class#VectorSortsTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="3734" column="0" lean-forward="false" selection-start-line="3734" selection-start-column="0" selection-end-line="3734" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/shmarlouski/maintask01/model/VectorUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="146" column="9" lean-forward="true" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#isValidSizeIsNull#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#isValidSizeIsNotNull#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#fillVectorIsValid#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#fillVectorIsInvalid#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#fillVectorTest#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#findMinElementIsNotValidSize#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#findMinElementTestIsValidSize#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#findMinElementTest#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#reverseVectorTest#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#reverseVectorTestVectorInvalidSize#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#reverseVectorTestVectorValidSize#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#swapElementsTest#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#swapElementsTestVectorValidSize#0;class#VectorUtilsTest#0" expanded="false" />
+            <element signature="method#swapElementsTestVectorInvalidSize#0;class#VectorUtilsTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/VectorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="252" column="75" lean-forward="false" selection-start-line="252" selection-start-column="75" selection-end-line="252" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#isValidSize#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#fillVector#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findMinElement#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findMaxElement#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findArithmeticAverage#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findGeometricAverage#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#isAscending#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#isDescending#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findLocalMinElementPosition#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#findLocalMaxElementPosition#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#hasElementLinearSearch#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#hasElementBinarySearch#0;class#VectorUtils#0" expanded="false" />
+            <element signature="method#swapElements#0;class#VectorUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <element signature="method#isValidElement#0;class#Vector#0" expanded="false" />
+            <element signature="method#addElement#0;class#Vector#0" expanded="false" />
+            <element signature="method#removeElement#0;class#Vector#0" expanded="false" />
+            <element signature="method#getElement#0;class#Vector#0" expanded="false" />
+            <element signature="method#setElement#0;class#Vector#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/shmarlouski/maintask01/model/VectorSorts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#doSelectionSort#0;class#VectorSorts#0" expanded="false" />
+            <element signature="method#doOneCircleForSort#0;class#VectorSorts#0" expanded="false" />
+            <element signature="method#doQuickSort#0;class#VectorSorts#0" expanded="false" />
+            <element signature="method#doMergeSort#0;class#VectorSorts#0" expanded="false" />
           </folding>
         </state>
       </provider>

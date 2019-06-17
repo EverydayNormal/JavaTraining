@@ -33,10 +33,10 @@ public class Main {
 		/*int number = 7777;
 		int answer = findMaxDigit(number);
 		System.out.println(answer);*/
-		
+		/*
 		int number = 496;
 		boolean answer = isPerfectNumber(number);
 		System.out.println(answer);
-	
+	*/
 	}
 }

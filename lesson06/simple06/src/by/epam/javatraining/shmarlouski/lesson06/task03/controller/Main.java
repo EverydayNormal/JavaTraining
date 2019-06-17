@@ -6,12 +6,11 @@ import static by.epam.javatraining.shmarlouski.lesson06.task03.model.RandomNumbe
 
 public class Main {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int number = getRandomInt(100);
+        int number = getRandomInt(10);
+        int result = findFactorial(number);
 
-		int result = findFactorial(number);
-
-		print("Factorial of number " + number + " is " + result);
-	}
+        print("Factorial of number " + number + " is " + result);
+    }
 }

@@ -1,29 +1,772 @@
-2019-06-11 21:34:34 INFO  VectorLogic:253 - Vector was sorted by Bubble sort 
-[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]
-2019-06-11 22:15:52 INFO  VectorLogic:253 - Vector was sorted by Bubble sort 
-[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]
-2019-06-12 17:10:29 INFO  VectorLogic:55 - Smallest element value is 1.0
-2019-06-12 17:10:29 INFO  VectorLogic:71 - Biggest element value is 9.0
-2019-06-12 17:10:29 INFO  VectorLogic:91 - Arithmetic average of vector's values is 4.4
-2019-06-12 17:10:29 INFO  VectorLogic:107 - Geometric average of vector's values is 3.7461522959655715
-2019-06-12 17:10:29 INFO  VectorLogic:133 - Order in a vector is false
-2019-06-12 17:10:29 INFO  VectorLogic:152 - Position of local smallest element in vector is 7
-2019-06-12 17:10:29 INFO  VectorLogic:172 - Position of local biggest element in vector is 3
-2019-06-12 17:10:29 INFO  VectorLogic:189 - Availability of 3.0 is true
-2019-06-12 17:10:29 INFO  VectorLogic:253 - Vector was sorted by Bubble sort 
-[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0]
-2019-06-12 17:10:29 INFO  VectorLogic:218 - Availability of 3.0 is true
-2019-06-12 17:10:29 INFO  VectorLogic:236 - Vector's elements was reversed 
-[9.0, 7.0, 6.0, 5.0, 4.0, 4.0, 3.0, 3.0, 2.0, 1.0]
-2019-06-12 17:10:29 INFO  VectorLogic:253 - Vector was sorted by Bubble sort 
-[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0]
-2019-06-12 17:10:29 INFO  VectorLogic:276 - Vector was sorted by Insertion sort 
-[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0]
-2019-06-12 17:10:29 INFO  VectorLogic:295 - Vector was sorted by Selection sort 
-[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0]
-2019-06-12 17:10:29 INFO  VectorLogic:409 - After adding elements vector look like 
-[1.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0, 3.1, 4.1]
-2019-06-12 17:10:29 INFO  VectorLogic:409 - After adding elements vector look like 
-[1.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0, 3.1, 4.1]
-2019-06-12 17:10:29 INFO  VectorLogic:440 - Element 2.0 was deleted 
-[1.0, 3.0, 3.0, 4.0, 4.0, 5.0, 6.0, 7.0, 9.0, 3.1, 4.1]
+2019-06-14 16:56:03 INFO  VectorLogic:18 - Program start
+2019-06-14 16:56:03 INFO  VectorLogic:42 - Vector was filled 
+[5.0, 2.0, 8.0, 1.0, 4.0, 4.0, 6.0, 3.0, 1.0, 7.0]
+2019-06-14 16:56:03 INFO  VectorLogic:40 - Element was added 
+[5.0, 2.0, 8.0, 1.0, 4.0, 4.0, 6.0, 3.0, 1.0, 7.0, 3.1]
+2019-06-14 16:56:03 INFO  VectorLogic:53 - Element 2.0 was removed
+2019-06-14 16:56:03 INFO  VectorLogic:40 - Element was added 
+[5.0]
+2019-06-14 16:56:03 INFO  VectorLogic:40 - Element was added 
+[5.0, 8.0, 1.0, 4.0, 4.0, 6.0, 3.0, 1.0, 7.0, 3.1]
+2019-06-14 16:56:03 INFO  VectorLogic:58 - After deleting vector look like 
+[5.0, 8.0, 1.0, 4.0, 4.0, 6.0, 3.0, 1.0, 7.0, 3.1]
+2019-06-14 16:56:03 INFO  VectorLogic:58 - Smallest vector's element value is 1.0
+2019-06-14 16:56:03 INFO  VectorLogic:74 - Biggest vector's element value is 8.0
+2019-06-14 16:56:03 INFO  VectorLogic:94 - Arithmetic average of vector's values is 4.21
+2019-06-14 16:56:03 INFO  VectorLogic:110 - Geometric average of vector's values is 3.465702034501923
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is false
+2019-06-14 16:56:03 INFO  VectorLogic:156 - Position of local minimum element in vector is 2
+2019-06-14 16:56:03 INFO  VectorLogic:176 - Position of local maximum element in vector is 1
+2019-06-14 16:56:03 INFO  VectorLogic:193 - Presence of 3.0 in vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:258 - Vector was sorted by Bubble sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:222 - Presence of 5.0 in vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:241 - Vector's elements was reversed 
+[8.0, 7.0, 6.0, 5.0, 4.0, 4.0, 3.1, 3.0, 1.0, 1.0]
+2019-06-14 16:56:03 INFO  VectorLogic:258 - Vector was sorted by Bubble sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:281 - Vector was sorted by Insertion sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:300 - Vector was sorted by Selection sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:311 - Vector was sorted by One-Circle-For sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:331 - Vector was sorted by Quick sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:136 - Order in a vector is true
+2019-06-14 16:56:03 INFO  VectorLogic:404 - Vector was sorted by Merge sort 
+[1.0, 1.0, 3.0, 3.1, 4.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2019-06-14 16:56:03 INFO  VectorLogic:64 - Program finish
+2019-06-17 12:11:03 INFO  VectorUtils:18 - Program start
+2019-06-17 12:11:03 INFO  VectorUtils:40 - Vector was filled 
+[9.0, 8.0, 3.0, 9.0, 10.0, 1.0, 6.0, 7.0, 8.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:49 - Element was added 
+[9.0, 8.0, 3.0, 9.0, 10.0, 1.0, 6.0, 7.0, 8.0, 10.0, 3.1]
+2019-06-17 12:11:03 INFO  VectorUtils:62 - Element 8.0 was removed
+2019-06-17 12:11:03 INFO  VectorUtils:49 - Element was added 
+[9.0]
+2019-06-17 12:11:03 INFO  VectorUtils:49 - Element was added 
+[9.0, 3.0, 9.0, 10.0, 1.0, 6.0, 7.0, 8.0, 10.0, 3.1]
+2019-06-17 12:11:03 INFO  VectorUtils:67 - After deleting vector look like 
+[9.0, 3.0, 9.0, 10.0, 1.0, 6.0, 7.0, 8.0, 10.0, 3.1]
+2019-06-17 12:11:03 INFO  VectorUtils:56 - Smallest vector's element value is 1.0
+2019-06-17 12:11:03 INFO  VectorUtils:72 - Biggest vector's element value is 10.0
+2019-06-17 12:11:03 INFO  VectorUtils:91 - Arithmetic average of vector's values is 6.609999999999999
+2019-06-17 12:11:03 INFO  VectorUtils:107 - Geometric average of vector's values is 5.499595203016431
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 12:11:03 INFO  VectorUtils:143 - Order in a vector is false
+2019-06-17 12:11:03 INFO  VectorUtils:163 - Position of local minimum element in vector is 1
+2019-06-17 12:11:03 INFO  VectorUtils:183 - Position of local maximum element in vector is 3
+2019-06-17 12:11:03 INFO  VectorUtils:200 - Position of 3.0 in vector is 1
+2019-06-17 12:11:03 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:229 - Position of 5.0 in vector is 0
+2019-06-17 12:11:03 INFO  VectorUtils:248 - Vector's elements was reversed 
+[10.0, 10.0, 9.0, 9.0, 8.0, 7.0, 6.0, 3.1, 3.0, 1.0]
+2019-06-17 12:11:03 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:48 - Vector was sorted by Insertion sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:67 - Vector was sorted by Selection sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:78 - Vector was sorted by One-Circle-For sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:98 - Vector was sorted by Quick sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 12:11:03 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 3.0, 3.1, 6.0, 7.0, 8.0, 9.0, 9.0, 10.0, 10.0]
+2019-06-17 12:11:03 INFO  VectorUtils:66 - Program finish
+2019-06-17 13:00:36 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:00:36 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:00:36 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:00:36 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:01:52 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0, 0.0, 1.0]
+2019-06-17 13:02:41 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0, 0.0, 10.0]
+2019-06-17 13:04:36 INFO  VectorUtils:65 - Element 0.0 was removed
+2019-06-17 13:04:36 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:04:36 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:04:36 INFO  VectorUtils:70 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:04:57 INFO  VectorUtils:65 - Element 0.0 was removed
+2019-06-17 13:04:57 INFO  VectorUtils:52 - Element was added 
+[]
+2019-06-17 13:04:57 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:04:57 INFO  VectorUtils:70 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:06:13 INFO  VectorUtils:65 - Element 0.0 was removed
+2019-06-17 13:06:13 INFO  VectorUtils:52 - Element was added 
+[0.0]
+2019-06-17 13:06:13 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:06:13 INFO  VectorUtils:70 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:11:53 WARN  VectorUtils:85 - Index is incorrect
+2019-06-17 13:11:53 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:12:16 WARN  VectorUtils:85 - Index is incorrect
+2019-06-17 13:12:16 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:13:05 WARN  VectorUtils:85 - Index is incorrect
+2019-06-17 13:13:05 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:14:04 WARN  VectorUtils:85 - Index is incorrect
+2019-06-17 13:14:04 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:14:27 WARN  VectorUtils:85 - Index is incorrect
+2019-06-17 13:14:27 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:14:27 WARN  VectorUtils:85 - Index is incorrect
+2019-06-17 13:14:27 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0, 0.0, 10.0]
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0, 0.0, 1.0]
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0, 0.0, 0.0]
+2019-06-17 13:14:27 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:14:27 INFO  VectorUtils:65 - Element 0.0 was removed
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:14:27 INFO  VectorUtils:70 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:14:27 INFO  VectorUtils:65 - Element 0.0 was removed
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[0.0]
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:14:27 INFO  VectorUtils:70 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:14:27 WARN  VectorUtils:58 - Index is incorrect
+2019-06-17 13:14:27 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:14:27 WARN  VectorUtils:58 - Index is incorrect
+2019-06-17 13:14:27 WARN  VectorUtils:40 - Added element shouldn't be null or negative
+2019-06-17 13:14:27 INFO  VectorUtils:65 - Element 0.0 was removed
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[]
+2019-06-17 13:14:27 INFO  VectorUtils:52 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:14:27 INFO  VectorUtils:70 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:14:27 WARN  VectorUtils:85 - Index is incorrect
+2019-06-17 13:14:27 WARN  VectorUtils:76 - Index is incorrect
+2019-06-17 13:16:20 WARN  VectorUtils:40 - Added element shouldn't be null or negative
+2019-06-17 13:16:37 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 4.0]
+2019-06-17 13:17:08 WARN  VectorUtils:40 - Added element shouldn't be null or negative
+2019-06-17 13:18:23 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 3.0, 2.0, 1.0]
+2019-06-17 13:18:46 WARN  VectorUtils:40 - Added element shouldn't be null or negative
+2019-06-17 13:18:58 WARN  VectorUtils:83 - Index is incorrect
+2019-06-17 13:18:58 WARN  VectorUtils:74 - Index is incorrect
+2019-06-17 13:18:58 WARN  VectorUtils:83 - Index is incorrect
+2019-06-17 13:18:58 WARN  VectorUtils:74 - Index is incorrect
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 10.0]
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 1.0]
+2019-06-17 13:18:58 WARN  VectorUtils:40 - Added element shouldn't be null or negative
+2019-06-17 13:18:58 WARN  VectorUtils:40 - Added element shouldn't be null or negative
+2019-06-17 13:18:58 WARN  VectorUtils:74 - Index is incorrect
+2019-06-17 13:18:58 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:18:58 INFO  VectorUtils:68 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:18:58 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[0.0]
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:18:58 INFO  VectorUtils:68 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:18:58 WARN  VectorUtils:56 - Index is incorrect
+2019-06-17 13:18:58 WARN  VectorUtils:74 - Index is incorrect
+2019-06-17 13:18:58 WARN  VectorUtils:56 - Index is incorrect
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 3.0, 2.0, 1.0]
+2019-06-17 13:18:58 WARN  VectorUtils:40 - Added element shouldn't be null or negative
+2019-06-17 13:18:58 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 13:18:58 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0]
+2019-06-17 13:18:58 INFO  VectorUtils:68 - After deleting vector look like 
+[0.0, 0.0]
+2019-06-17 13:18:58 WARN  VectorUtils:83 - Index is incorrect
+2019-06-17 13:18:58 WARN  VectorUtils:74 - Index is incorrect
+2019-06-17 14:21:37 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 0.0, 3.0, 2.0, 1.0]
+2019-06-17 14:22:59 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 0.0, 3.0, 2.0, 1.0]
+2019-06-17 14:22:59 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0]
+2019-06-17 14:23:42 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 0.0, 3.0, 2.0, 1.0]
+2019-06-17 14:23:42 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0]
+2019-06-17 14:24:29 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 0.0, 3.0, 2.0, 1.0]
+2019-06-17 14:24:29 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0]
+2019-06-17 14:24:54 INFO  VectorUtils:50 - Element was added 
+[0.0, 3.0, 2.0, 1.0]
+2019-06-17 14:24:54 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[0.0, 1.0, 2.0, 3.0]
+2019-06-17 14:25:31 INFO  VectorUtils:50 - Element was added 
+[0.0, 2.0, 1.0, 0.0]
+2019-06-17 14:25:31 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[0.0, 0.0, 1.0, 2.0]
+2019-06-17 14:26:14 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 14:26:14 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 14:26:14 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 14:26:14 INFO  VectorUtils:68 - After deleting vector look like 
+[]
+2019-06-17 14:26:14 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:26:14 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:26:18 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 14:26:18 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 14:26:18 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 14:26:18 INFO  VectorUtils:68 - After deleting vector look like 
+[]
+2019-06-17 14:26:18 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:26:18 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:27:01 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 14:27:01 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 14:27:01 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 14:27:01 INFO  VectorUtils:68 - After deleting vector look like 
+[]
+2019-06-17 14:27:01 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:27:01 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:27:14 WARN  VectorUtils:24 -  Vector shouldn't be null and must have positive size
+2019-06-17 14:27:14 WARN  VectorUtils:18 - Can't do Bubble sort
+2019-06-17 14:29:43 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 14:29:43 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 14:29:43 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 14:29:43 INFO  VectorUtils:68 - After deleting vector look like 
+[]
+2019-06-17 14:29:43 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:29:43 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:30:06 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:30:06 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:30:11 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:30:11 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:34:24 INFO  VectorUtils:18 - Program start
+2019-06-17 14:34:24 INFO  VectorUtils:40 - Vector was filled 
+[8.0, 7.0, 5.0, 8.0, 6.0, 2.0, 1.0, 2.0, 1.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:50 - Element was added 
+[8.0, 7.0, 5.0, 8.0, 6.0, 2.0, 1.0, 2.0, 1.0, 10.0, 3.1]
+2019-06-17 14:34:24 INFO  VectorUtils:63 - Element 7.0 was removed
+2019-06-17 14:34:24 INFO  VectorUtils:50 - Element was added 
+[8.0]
+2019-06-17 14:34:24 INFO  VectorUtils:50 - Element was added 
+[8.0, 5.0, 8.0, 6.0, 2.0, 1.0, 2.0, 1.0, 10.0, 3.1]
+2019-06-17 14:34:24 INFO  VectorUtils:68 - After deleting vector look like 
+[8.0, 5.0, 8.0, 6.0, 2.0, 1.0, 2.0, 1.0, 10.0, 3.1]
+2019-06-17 14:34:24 INFO  VectorUtils:56 - Smallest vector's element value is 1.0
+2019-06-17 14:34:24 INFO  VectorUtils:72 - Biggest vector's element value is 10.0
+2019-06-17 14:34:24 INFO  VectorUtils:91 - Arithmetic average of vector's values is 4.61
+2019-06-17 14:34:24 INFO  VectorUtils:107 - Geometric average of vector's values is 3.448834000548315
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 14:34:24 INFO  VectorUtils:143 - Order in a vector is false
+2019-06-17 14:34:24 INFO  VectorUtils:163 - Position of local minimum element in vector is 1
+2019-06-17 14:34:24 INFO  VectorUtils:183 - Position of local maximum element in vector is 2
+2019-06-17 14:34:24 INFO  VectorUtils:200 - Position of 3.0 in vector is 0
+2019-06-17 14:34:24 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:229 - Position of 5.0 in vector is 5
+2019-06-17 14:34:24 INFO  VectorUtils:248 - Vector's elements was reversed 
+[10.0, 8.0, 8.0, 6.0, 5.0, 3.1, 2.0, 2.0, 1.0, 1.0]
+2019-06-17 14:34:24 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:48 - Vector was sorted by Insertion sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:67 - Vector was sorted by Selection sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:78 - Vector was sorted by One-Circle-For sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:98 - Vector was sorted by Quick sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 14:34:24 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 1.0, 2.0, 2.0, 3.1, 5.0, 6.0, 8.0, 8.0, 10.0]
+2019-06-17 14:34:24 INFO  VectorUtils:66 - Program finish
+2019-06-17 14:34:46 WARN  VectorUtils:24 -  Vector shouldn't be null
+2019-06-17 14:34:46 WARN  VectorUtils:18 - Can't do Bubble sort
+2019-06-17 14:35:50 WARN  VectorUtils:24 -  Vector shouldn't be null
+2019-06-17 14:35:50 WARN  VectorUtils:18 - Can't do Bubble sort
+2019-06-17 14:45:42 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:45:42 INFO  VectorUtils:48 - Vector was sorted by Insertion sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:45:46 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 14:45:46 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[3.0, 4.0, 5.0]
+2019-06-17 14:45:51 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:45:51 INFO  VectorUtils:48 - Vector was sorted by Insertion sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:46:16 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 14:46:16 INFO  VectorUtils:48 - Vector was sorted by Insertion sort 
+[1.0, 2.0, 3.0]
+2019-06-17 14:57:22 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 14:57:22 INFO  VectorUtils:67 - Vector was sorted by Selection sort 
+[3.0, 4.0, 5.0]
+2019-06-17 14:57:37 INFO  VectorUtils:50 - Element was added 
+[3.2, 2.2, 1.2]
+2019-06-17 14:57:37 INFO  VectorUtils:67 - Vector was sorted by Selection sort 
+[1.2, 2.2, 3.2]
+2019-06-17 15:00:10 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 15:00:10 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:00:10 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:00:10 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:00:10 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:00:10 INFO  VectorUtils:78 - Vector was sorted by One-Circle-For sort 
+[3.0, 4.0, 5.0]
+2019-06-17 15:01:37 INFO  VectorUtils:50 - Element was added 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:01:37 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:01:37 INFO  VectorUtils:78 - Vector was sorted by One-Circle-For sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:01:41 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:01:41 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:01:41 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:01:41 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:01:41 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:01:41 INFO  VectorUtils:78 - Vector was sorted by One-Circle-For sort 
+[12.0, 22.0, 32.0]
+2019-06-17 15:07:33 INFO  VectorUtils:18 - Program start
+2019-06-17 15:07:33 INFO  VectorUtils:40 - Vector was filled 
+[9.0, 8.0, 9.0, 8.0, 3.0, 7.0, 5.0, 4.0, 6.0, 7.0]
+2019-06-17 15:07:33 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:33 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:33 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:33 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:33 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:33 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:33 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:07:33 INFO  VectorUtils:98 - Vector was sorted by Quick sort 
+[3.0, 4.0, 5.0, 6.0, 7.0, 7.0, 8.0, 8.0, 9.0, 9.0]
+2019-06-17 15:07:33 INFO  VectorUtils:66 - Program finish
+2019-06-17 15:07:56 INFO  VectorUtils:18 - Program start
+2019-06-17 15:07:56 INFO  VectorUtils:40 - Vector was filled 
+[9.0, 7.0, 7.0, 7.0, 2.0, 2.0, 4.0, 4.0, 2.0, 8.0]
+2019-06-17 15:07:56 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:56 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:56 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:56 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:56 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:56 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:07:56 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:07:56 INFO  VectorUtils:98 - Vector was sorted by Quick sort 
+[2.0, 2.0, 2.0, 4.0, 4.0, 7.0, 7.0, 7.0, 8.0, 9.0]
+2019-06-17 15:07:56 INFO  VectorUtils:66 - Program finish
+2019-06-17 15:10:05 INFO  VectorUtils:18 - Program start
+2019-06-17 15:10:05 INFO  VectorUtils:40 - Vector was filled 
+[5.0, 9.0, 4.0, 1.0, 4.0, 9.0, 8.0, 8.0, 10.0, 2.0]
+2019-06-17 15:10:05 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:10:47 INFO  VectorUtils:18 - Program start
+2019-06-17 15:10:47 INFO  VectorUtils:40 - Vector was filled 
+[3.0, 1.0, 3.0, 10.0, 7.0, 1.0, 9.0, 5.0, 9.0, 1.0]
+2019-06-17 15:10:47 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:10:47 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:10:47 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:10:47 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:10:47 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:10:47 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:10:47 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:10:47 INFO  VectorUtils:98 - Vector was sorted by Quick sort 
+[1.0, 1.0, 1.0, 3.0, 3.0, 5.0, 7.0, 9.0, 9.0, 10.0]
+2019-06-17 15:10:47 INFO  VectorUtils:66 - Program finish
+2019-06-17 15:12:38 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 15:12:38 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:12:48 INFO  VectorUtils:50 - Element was added 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:12:48 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:12:48 INFO  VectorUtils:98 - Vector was sorted by Quick sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:12:53 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:12:53 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:13:45 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:13:45 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:14:55 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:14:55 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:14:57 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:14:57 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[3.2, 2.2, 1.2]
+2019-06-17 15:17:00 INFO  VectorUtils:67 - Vector was sorted by Selection sort 
+[1.2, 2.2, 3.2]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 15:17:00 INFO  VectorUtils:67 - Vector was sorted by Selection sort 
+[3.0, 4.0, 5.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 15:17:00 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[1.0, 2.0, 3.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[12.0, 22.0, 32.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[3.1, 2.1, 1.1]
+2019-06-17 15:17:00 INFO  VectorUtils:48 - Vector was sorted by Insertion sort 
+[1.1, 2.1, 3.1]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 WARN  VectorUtils:24 -  Vector shouldn't be null
+2019-06-17 15:17:00 WARN  VectorUtils:18 - Can't do Bubble sort
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 15:17:00 INFO  VectorUtils:48 - Vector was sorted by Insertion sort 
+[1.0, 2.0, 3.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:171 - Vector was sorted by Merge sort 
+[3.0, 4.0, 5.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:98 - Vector was sorted by Quick sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:78 - Vector was sorted by One-Circle-For sort 
+[1.0, 2.0, 3.0, 4.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:78 - Vector was sorted by One-Circle-For sort 
+[12.0, 22.0, 32.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 15:17:00 INFO  VectorUtils:29 - Vector was sorted by Bubble sort 
+[3.0, 4.0, 5.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[5.0, 4.0, 3.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is true
+2019-06-17 15:17:00 INFO  VectorUtils:78 - Vector was sorted by One-Circle-For sort 
+[3.0, 4.0, 5.0]
+2019-06-17 15:17:00 INFO  VectorUtils:50 - Element was added 
+[32.0, 22.0, 12.0]
+2019-06-17 15:17:00 INFO  VectorUtils:125 - Ascending of numbers in a vector is false
+2019-06-17 15:21:06 WARN  VectorUtils:24 -  Vector shouldn't be null
+2019-06-17 15:27:50 INFO  VectorUtils:42 - Vector was filled 
+[8.0, 5.0, 5.0]
+2019-06-17 15:27:55 INFO  VectorUtils:42 - Vector was filled 
+[10.0, 6.0, 7.0]
+2019-06-17 15:28:00 INFO  VectorUtils:42 - Vector was filled 
+[7.0, 4.0, 9.0]
+2019-06-17 15:29:04 WARN  VectorUtils:26 -  Vector shouldn't be null
+2019-06-17 15:29:04 WARN  VectorUtils:35 - Can't fill the vector
+2019-06-17 15:35:41 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 9.0]
+2019-06-17 15:35:41 INFO  VectorUtils:58 - Smallest vector's element value is 0.0
+2019-06-17 15:37:50 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 9.0]
+2019-06-17 15:37:50 INFO  VectorUtils:58 - Smallest vector's element value is 0.0
+2019-06-17 15:37:53 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 0.0, 9.0, 3.0, 2.0, 1.0]
+2019-06-17 15:37:53 INFO  VectorUtils:58 - Smallest vector's element value is 0.0
+2019-06-17 15:44:18 INFO  VectorUtils:50 - Element was added 
+[0.0, 3.0, 2.0, 1.0]
+2019-06-17 15:44:18 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 15:44:18 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 15:44:18 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 15:44:18 INFO  VectorUtils:68 - After deleting vector look like 
+[3.0, 2.0, 1.0]
+2019-06-17 15:44:18 INFO  VectorUtils:74 - Biggest vector's element value is 3.0
+2019-06-17 15:44:31 INFO  VectorUtils:50 - Element was added 
+[0.0, 3.0, 2.0, 1.0]
+2019-06-17 15:44:31 INFO  VectorUtils:63 - Element 0.0 was removed
+2019-06-17 15:44:31 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 15:44:31 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 15:44:31 INFO  VectorUtils:68 - After deleting vector look like 
+[3.0, 2.0, 1.0]
+2019-06-17 15:44:31 INFO  VectorUtils:74 - Biggest vector's element value is 3.0
+2019-06-17 15:45:14 INFO  VectorUtils:50 - Element was added 
+[9.0, 3.0, 2.0, 1.0]
+2019-06-17 15:45:14 INFO  VectorUtils:63 - Element 9.0 was removed
+2019-06-17 15:45:14 INFO  VectorUtils:50 - Element was added 
+[]
+2019-06-17 15:45:14 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 15:45:14 INFO  VectorUtils:68 - After deleting vector look like 
+[3.0, 2.0, 1.0]
+2019-06-17 15:45:14 INFO  VectorUtils:74 - Biggest vector's element value is 3.0
+2019-06-17 15:45:20 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 0.0, 9.0, 3.0, 2.0, 1.0]
+2019-06-17 15:45:20 INFO  VectorUtils:74 - Biggest vector's element value is 9.0
+2019-06-17 15:45:30 INFO  VectorUtils:50 - Element was added 
+[0.0, 0.0, 0.0, 0.0, 9.0, 3.0, 2.0, 1.0]
+2019-06-17 15:45:30 INFO  VectorUtils:74 - Biggest vector's element value is 9.0
+2019-06-17 16:06:30 INFO  VectorUtils:50 - Element was added 
+[13.13, 12.12]
+2019-06-17 16:06:52 INFO  VectorUtils:50 - Element was added 
+[13.13, 12.12]
+2019-06-17 16:07:44 INFO  VectorUtils:50 - Element was added 
+[13.13, 12.12]
+2019-06-17 16:08:44 INFO  VectorUtils:50 - Element was added 
+[13.13, 12.12]
+2019-06-17 16:15:45 INFO  VectorUtils:50 - Element was added 
+[3.0, 2.0, 1.0]
+2019-06-17 16:15:45 INFO  VectorUtils:250 - Vector's elements was reversed 
+[1.0, 2.0, 3.0]
+2019-06-17 16:16:53 INFO  VectorUtils:50 - Element was added 
+[4.0, 3.0, 2.0, 1.0]
+2019-06-17 16:16:53 INFO  VectorUtils:250 - Vector's elements was reversed 
+[1.0, 2.0, 3.0, 4.0]

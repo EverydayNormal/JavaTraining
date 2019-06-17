@@ -1,27 +1,35 @@
 package by.epam.javatraining.shmarlouski.maintask01.controller;
 
-        import static by.epam.javatraining.shmarlouski.maintask01.model.VectorLogic.*;
+import by.epam.javatraining.shmarlouski.maintask01.model.Vector;
+import static by.epam.javatraining.shmarlouski.maintask01.model.VectorUtils.*;
+import static by.epam.javatraining.shmarlouski.maintask01.model.VectorSorts.*;
+
+/**
+ * This is main class.
+ *
+ * @author Smarlouski Ihar
+ * @version 1.1.1
+ */
 
 public class Main {
 
-    public static void func (int x, int ... y){
-        System.out.println("1");
-    }
-    public static void func (int x, int k, int ... y){
-        System.out.println("2");
-    }
-
     public static void main(String[] args) {
 
-        /*
+        LOGGER.info("Program start");
+
         int N = 10;
-        double[] vector = new double[N];
-        vector = fillVector(vector);
-        */
 
-        double[] vector = {3, 4, 5, 6, 4, 3, 2, 1, 9, 7};
+        Vector vector = new Vector(N);
 
-        double minElement = findMinElement(vector);
+        fillVector(vector);
+
+        double newElement1 = 3.1;
+
+        vector.addElement(newElement1);
+
+        vector.removeElement(1);
+
+        double MinElement = findMinElement(vector);
 
         double maxElement = findMaxElement(vector);
 
@@ -29,36 +37,32 @@ public class Main {
 
         double geometricAverage = findGeometricAverage(vector);
 
-        boolean answer = isSorted(vector);
+        boolean answer = isAscending(vector);
+
+        boolean answer2 = isDescending(vector);
 
         int localMinElementPosition = findLocalMinElementPosition(vector);
 
         int localMaxElementPosition = findLocalMaxElementPosition(vector);
 
-        boolean gotElementLinearSearch = hasElementLinearSearch(vector, 3);
+        int gotElementLinearSearch = hasElementLinearSearch(vector, 3);
 
-        boolean gotElementBinarySearch = hasElementBinarySearch(vector, 3);
+        int gotElementBinarySearch = hasElementBinarySearch(vector, 5);
 
-        double[] reversedVector = reverseVector(vector);
+        reverseVector(vector);
 
-        double[] sortedVector = doBubbleSort(vector);
+        doBubbleSort(vector);
 
-        double[] sortedVector2 = doInsertionSort(vector);
+        doInsertionSort(vector);
 
-        double[] sortedVector3 = doSelectionSort(vector);
+        doSelectionSort(vector);
 
-        double[] sortedVector4 = doOneCircleForSort(vector);
+        doOneCircleForSort(vector);
 
-        double[] sortedVector5 = doQuickSort(vector, 0, vector.length - 1);
+        doQuickSort(vector, 0, vector.getLength() - 1);
 
-        double[] sortedVector6 = doMergeSort(vector, 0, vector.length - 1);
+        doMergeSort(vector, 0, vector.getLength() - 1);
 
-        double newElement1 = 3.1;
-        double newElement2 = 4.1;
-
-        vector = addElement(vector, newElement1, newElement2);
-
-        vector = removeElement(vector,1);
-
+        LOGGER.info("Program finish");
     }
 }
