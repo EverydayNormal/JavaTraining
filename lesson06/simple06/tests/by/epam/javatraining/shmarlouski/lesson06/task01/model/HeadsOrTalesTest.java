@@ -15,6 +15,13 @@ public class HeadsOrTalesTest {
 		assertEquals(expected, getResult(turn));
 	}
 
-	// Don't know what else could be checked in this method because is return String
-	// message + random results
+	@Test
+	public void getResultAnotherWay() {
+
+		int turn = -12;
+		String expected = "Number of throws must be positive";
+
+		assertEquals(expected, getResult(turn));
+	}
+
 }

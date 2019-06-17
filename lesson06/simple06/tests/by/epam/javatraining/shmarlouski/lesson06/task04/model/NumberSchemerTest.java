@@ -9,7 +9,7 @@ public class NumberSchemerTest {
 	@Test
 	public void testIsEvenNumberLessThanZero() {
 		
-		int number = -2012;
+		int number = -2007;
 		boolean expected = false;
 		
 		assertEquals(expected, isEvenNumber(number));

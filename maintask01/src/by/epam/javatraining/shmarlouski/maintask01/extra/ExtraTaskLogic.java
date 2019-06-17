@@ -19,18 +19,8 @@ public class ExtraTaskLogic {
         return answer;
     }
 
-    public static boolean isSymmetric(int matrix[][]) {
-        for (int a = 0; a < matrix.length; a++) {
-            for (int b = 0; b < matrix[a].length / 2; b++) {
-                if (matrix[a][b] != matrix[a][matrix[a].length - b - 1]) {
-                    return false;
-                }
-            }
-        }
-        return true;
-    }
-
     public static int findMinimum(int[][] matrix) {
+
         int minimum = matrix[0][0];
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
@@ -67,6 +57,7 @@ public class ExtraTaskLogic {
     }
 
     public static void showMatrix(int[][] matrix) {
+
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
             }
@@ -74,7 +65,7 @@ public class ExtraTaskLogic {
         }
     }
 
-    public static boolean isSimetric(int[][] matrix) {
+    public static boolean isSymetric(int[][] matrix) {
 
         boolean answer = false;
 

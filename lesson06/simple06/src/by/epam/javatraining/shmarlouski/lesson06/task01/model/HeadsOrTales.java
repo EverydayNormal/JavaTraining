@@ -8,7 +8,7 @@ public class HeadsOrTales {
 	private static int tailsCount = 0;
 
 	public static String getResultAnotherWay(int turn) {
-		System.out.println(turn);
+
 		int heads = 0;
 		for (int i = 0; i < turn; i++) {
 			if (getRandomBoolean()) {
@@ -21,6 +21,7 @@ public class HeadsOrTales {
 	}
 
 	public static String getResult(int turn) {
+
 		if (turn < 0) {
 			return "Number of throws must be positive";
 		}

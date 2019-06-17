@@ -8,7 +8,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int number = getRandomInt(10000);
+		//int number = getRandomInt(10000);
+		int number = 12345;
 
 		boolean arisingCheck = checkArising(number);
 		boolean descendingCheck = checkDescending(number);
