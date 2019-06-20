@@ -1,6 +1,7 @@
 package by.epam.javatraining.shmarlouski.maintask01.model;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 import static by.epam.javatraining.shmarlouski.maintask01.model.VectorUtils.LOGGER;
 
@@ -91,12 +92,42 @@ public class Vector {
         return vector.length;
     }
 
-    public String toString() {
-        return Arrays.toString(vector);
-    }
-
     public double[] getVector() {
         return vector;
     }
 
+    @Override
+    public String toString() {
+        return Arrays.toString(vector);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || obj.getClass() != getClass()) {
+            return false;
+        }
+        Vector vector = (Vector) obj;
+        if (vector.getLength() != getLength() ) {
+            return false;
+        }
+        for (int i = 0; i < getLength(); i++) {
+            if (vector.getElement(i) != getElement(i)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(getLength());
+        result = 42 * result + Arrays.hashCode(this.vector);
+        return result;
+    }
 }
+
+
+
