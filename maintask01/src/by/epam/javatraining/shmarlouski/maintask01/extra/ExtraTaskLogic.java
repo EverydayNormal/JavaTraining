@@ -21,6 +21,10 @@ public class ExtraTaskLogic {
 
     public static int findMinimum(int[][] matrix) {
 
+        if(matrix == null){
+            return -1;
+        }
+
         int minimum = matrix[0][0];
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
@@ -33,6 +37,11 @@ public class ExtraTaskLogic {
     }
 
     public static int findMaximum(int[][] matrix) {
+
+        if(matrix == null){
+            return -1;
+        }
+
         int maximum = matrix[0][0];
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
@@ -46,6 +55,10 @@ public class ExtraTaskLogic {
 
     public static int[][] fillMatrix(int[][] matrix) {
 
+        if(matrix == null){
+           return new int[0][];
+        }
+
         int k = 11;
 
         for (int i = 0; i < matrix.length; i++) {
@@ -57,6 +70,10 @@ public class ExtraTaskLogic {
     }
 
     public static void showMatrix(int[][] matrix) {
+
+        if(matrix == null){
+            return;
+        }
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {

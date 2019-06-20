@@ -1,0 +1,104 @@
+2019-06-20 16:20:30 INFO  MainProgram:19 - Start of main program
+2019-06-20 16:20:30 INFO  MainProgram:26 - Airplane list was made from file
+2019-06-20 16:20:30 INFO  MainProgram:57 - Airplanes was moved to the AirlineCompany's hangar
+2019-06-20 16:20:30 INFO  MainProgram:14 - Total load capacity in this airline company is 1548200 kg
+2019-06-20 16:20:30 INFO  MainProgram:26 - Most cargo carrier airplane in this company is IL62
+2019-06-20 16:20:30 INFO  MainProgram:38 - Airplane that can deliver smallest amount of cargo in this company is Boeing747
+2019-06-20 16:20:30 INFO  MainProgram:49 - Total price of all airplanes in this company is 413.0 million dollars
+2019-06-20 16:20:30 INFO  MainProgram:61 - Most precious one airplane in this company is AirbusA310
+2019-06-20 16:20:30 INFO  MainProgram:73 - Cheapest one airplane in this company is Boeing747
+2019-06-20 16:20:30 INFO  MainProgram:83 - Total passenger capacity of all airplanes in this company is 2123 passengers
+2019-06-20 16:20:30 INFO  MainProgram:96 - Airplane with biggest passenger capacity in this company is TU204
+2019-06-20 16:20:30 INFO  MainProgram:109 - Airplane with minimal passenger capacity in this company is TU134
+2019-06-20 16:20:30 INFO  MainProgram:122 - Airplane, that can fly longest distance, in this company is Boeing747
+2019-06-20 16:20:30 INFO  MainProgram:135 - Airplane, that can fly shortest distance, in this company is TU134
+2019-06-20 16:20:30 INFO  MainProgram:148 - Fastest airplane in this company is Boeing747
+2019-06-20 16:20:30 INFO  MainProgram:160 - Slowest airplane in this company is TU204
+2019-06-20 16:20:30 INFO  MainProgram:55 - End of main program
+2019-06-20 16:27:31 INFO  MainProgram:28 - Start of main program
+2019-06-20 16:27:31 INFO  MainProgram:26 - Airplane list was made from file
+2019-06-20 16:27:31 INFO  MainProgram:57 - Airplanes was moved to the AirlineCompany's hangar
+2019-06-20 16:27:31 INFO  MainProgram:14 - Total load capacity in this airline company is 1548200 kg
+2019-06-20 16:27:31 INFO  MainProgram:26 - Most cargo carrier airplane in this company is IL62
+2019-06-20 16:27:31 INFO  MainProgram:38 - Airplane that can deliver smallest amount of cargo in this company is Boeing747
+2019-06-20 16:27:31 INFO  MainProgram:49 - Total price of all airplanes in this company is 413.0 million dollars
+2019-06-20 16:27:31 INFO  MainProgram:61 - Most precious one airplane in this company is AirbusA310
+2019-06-20 16:27:31 INFO  MainProgram:73 - Cheapest one airplane in this company is Boeing747
+2019-06-20 16:27:31 INFO  MainProgram:83 - Total passenger capacity of all airplanes in this company is 2123 passengers
+2019-06-20 16:27:31 INFO  MainProgram:96 - Airplane with biggest passenger capacity in this company is TU204
+2019-06-20 16:27:31 INFO  MainProgram:109 - Airplane with minimal passenger capacity in this company is TU134
+2019-06-20 16:27:31 INFO  MainProgram:122 - Airplane, that can fly longest distance, in this company is Boeing747
+2019-06-20 16:27:31 INFO  MainProgram:135 - Airplane, that can fly shortest distance, in this company is TU134
+2019-06-20 16:27:31 INFO  MainProgram:148 - Fastest airplane in this company is Boeing747
+2019-06-20 16:27:31 INFO  MainProgram:160 - Slowest airplane in this company is TU204
+2019-06-20 16:27:31 INFO  MainProgram:70 - End of main program
+2019-06-20 16:35:10 INFO  MainProgram:31 - Start of main program
+2019-06-20 16:35:10 INFO  MainProgram:26 - Airplane list was made from file
+2019-06-20 16:35:10 INFO  MainProgram:57 - Airplanes was moved to the AirlineCompany's hangar
+2019-06-20 16:35:10 INFO  MainProgram:14 - Total load capacity in this airline company is 1548200 kg
+2019-06-20 16:35:10 INFO  MainProgram:26 - Most cargo carrier airplane in this company is IL62
+2019-06-20 16:35:10 INFO  MainProgram:38 - Airplane that can deliver smallest amount of cargo in this company is Boeing747
+2019-06-20 16:35:10 INFO  MainProgram:49 - Total price of all airplanes in this company is 413.0 million dollars
+2019-06-20 16:35:10 INFO  MainProgram:61 - Most precious one airplane in this company is AirbusA310
+2019-06-20 16:35:10 INFO  MainProgram:73 - Cheapest one airplane in this company is Boeing747
+2019-06-20 16:35:10 INFO  MainProgram:83 - Total passenger capacity of all airplanes in this company is 2123 passengers
+2019-06-20 16:35:10 INFO  MainProgram:96 - Airplane with biggest passenger capacity in this company is TU204
+2019-06-20 16:35:10 INFO  MainProgram:109 - Airplane with minimal passenger capacity in this company is TU134
+2019-06-20 16:35:10 INFO  MainProgram:122 - Airplane, that can fly longest distance, in this company is Boeing747
+2019-06-20 16:35:10 INFO  MainProgram:135 - Airplane, that can fly shortest distance, in this company is TU134
+2019-06-20 16:35:10 INFO  MainProgram:148 - Fastest airplane in this company is Boeing747
+2019-06-20 16:35:10 INFO  MainProgram:160 - Slowest airplane in this company is TU204
+2019-06-20 16:35:10 INFO  MainProgram:73 - End of main program
+2019-06-20 16:35:16 INFO  MainProgram:31 - Start of main program
+2019-06-20 16:35:16 INFO  MainProgram:26 - Airplane list was made from file
+2019-06-20 16:35:16 INFO  MainProgram:57 - Airplanes was moved to the AirlineCompany's hangar
+2019-06-20 16:35:16 INFO  MainProgram:14 - Total load capacity in this airline company is 1548200 kg
+2019-06-20 16:35:16 INFO  MainProgram:26 - Most cargo carrier airplane in this company is IL62
+2019-06-20 16:35:16 INFO  MainProgram:38 - Airplane that can deliver smallest amount of cargo in this company is Boeing747
+2019-06-20 16:35:16 INFO  MainProgram:49 - Total price of all airplanes in this company is 413.0 million dollars
+2019-06-20 16:35:16 INFO  MainProgram:61 - Most precious one airplane in this company is AirbusA310
+2019-06-20 16:35:16 INFO  MainProgram:73 - Cheapest one airplane in this company is Boeing747
+2019-06-20 16:35:16 INFO  MainProgram:83 - Total passenger capacity of all airplanes in this company is 2123 passengers
+2019-06-20 16:35:16 INFO  MainProgram:96 - Airplane with biggest passenger capacity in this company is TU204
+2019-06-20 16:35:16 INFO  MainProgram:109 - Airplane with minimal passenger capacity in this company is TU134
+2019-06-20 16:35:16 INFO  MainProgram:122 - Airplane, that can fly longest distance, in this company is Boeing747
+2019-06-20 16:35:16 INFO  MainProgram:135 - Airplane, that can fly shortest distance, in this company is TU134
+2019-06-20 16:35:16 INFO  MainProgram:148 - Fastest airplane in this company is Boeing747
+2019-06-20 16:35:16 INFO  MainProgram:160 - Slowest airplane in this company is TU204
+2019-06-20 16:35:16 INFO  MainProgram:73 - End of main program
+2019-06-20 16:44:21 INFO  MainProgram:31 - Start of main program
+2019-06-20 16:44:21 INFO  MainProgram:31 - Airplane list was made from file
+2019-06-20 16:44:21 WARN  MainProgram:58 - incorrect data input in 
+2019-06-20 16:44:21 INFO  MainProgram:62 - Airplanes was moved to the AirlineCompany's hangar
+2019-06-20 16:44:21 INFO  MainProgram:14 - Total load capacity in this airline company is 1548200 kg
+2019-06-20 16:44:21 INFO  MainProgram:26 - Most cargo carrier airplane in this company is IL62
+2019-06-20 16:44:21 INFO  MainProgram:38 - Airplane that can deliver smallest amount of cargo in this company is Boeing747
+2019-06-20 16:44:21 INFO  MainProgram:49 - Total price of all airplanes in this company is 413.0 million dollars
+2019-06-20 16:44:21 INFO  MainProgram:61 - Most precious one airplane in this company is AirbusA310
+2019-06-20 16:44:21 INFO  MainProgram:73 - Cheapest one airplane in this company is Boeing747
+2019-06-20 16:44:21 INFO  MainProgram:83 - Total passenger capacity of all airplanes in this company is 2123 passengers
+2019-06-20 16:44:21 INFO  MainProgram:96 - Airplane with biggest passenger capacity in this company is TU204
+2019-06-20 16:44:21 INFO  MainProgram:109 - Airplane with minimal passenger capacity in this company is TU134
+2019-06-20 16:44:21 INFO  MainProgram:122 - Airplane, that can fly longest distance, in this company is Boeing747
+2019-06-20 16:44:21 INFO  MainProgram:135 - Airplane, that can fly shortest distance, in this company is TU134
+2019-06-20 16:44:21 INFO  MainProgram:148 - Fastest airplane in this company is Boeing747
+2019-06-20 16:44:21 INFO  MainProgram:160 - Slowest airplane in this company is TU204
+2019-06-20 16:44:21 INFO  MainProgram:69 - End of main program
+2019-06-20 16:49:28 INFO  MainProgram:31 - Start of main program
+2019-06-20 16:49:28 INFO  MainProgram:31 - Airplane list was made from file
+2019-06-20 16:49:28 WARN  MainProgram:58 - incorrect data input in 
+2019-06-20 16:49:28 INFO  MainProgram:62 - Airplanes was moved to the AirlineCompany's hangar
+2019-06-20 16:49:28 INFO  MainProgram:14 - Total load capacity in this airline company is 1548200 kg
+2019-06-20 16:49:28 INFO  MainProgram:26 - Most cargo carrier airplane in this company is IL62
+2019-06-20 16:49:28 INFO  MainProgram:38 - Airplane that can deliver smallest amount of cargo in this company is Boeing747
+2019-06-20 16:49:28 INFO  MainProgram:49 - Total price of all airplanes in this company is 413.0 million dollars
+2019-06-20 16:49:28 INFO  MainProgram:61 - Most precious one airplane in this company is AirbusA310
+2019-06-20 16:49:28 INFO  MainProgram:73 - Cheapest one airplane in this company is Boeing747
+2019-06-20 16:49:28 INFO  MainProgram:83 - Total passenger capacity of all airplanes in this company is 2123 passengers
+2019-06-20 16:49:28 INFO  MainProgram:96 - Airplane with biggest passenger capacity in this company is TU204
+2019-06-20 16:49:28 INFO  MainProgram:109 - Airplane with minimal passenger capacity in this company is TU134
+2019-06-20 16:49:28 INFO  MainProgram:122 - Airplane, that can fly longest distance, in this company is Boeing747
+2019-06-20 16:49:28 INFO  MainProgram:135 - Airplane, that can fly shortest distance, in this company is TU134
+2019-06-20 16:49:28 INFO  MainProgram:148 - Fastest airplane in this company is Boeing747
+2019-06-20 16:49:28 INFO  MainProgram:160 - Slowest airplane in this company is TU204
+2019-06-20 16:49:28 INFO  MainProgram:69 - End of main program
